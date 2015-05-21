@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="27" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32">
+  <image source="tile.png" width="128" height="96"/>
+  <tile id="4">
+   <properties>
+    <property name="name" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="name" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="name" value="rock"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="name" value="box"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="name" value="ground"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="logicLayer" width="27" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjETACcRcUMw5TOzixIGJBex0xKzDFAMAM1ICTg==
+  </data>
+ </layer>
+ <objectgroup name="object" width="27" height="15">
+  <object name="player" x="177" y="384"/>
+  <object name="enemy1" x="560" y="384">
+   <ellipse/>
+  </object>
+  <object name="enemy1" x="656" y="384">
+   <ellipse/>
+  </object>
+  <object name="enemy2" x="722" y="384">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="emeny" width="27" height="15"/>
+</map>
